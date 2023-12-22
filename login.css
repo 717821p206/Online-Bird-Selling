@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+
+
+  .loginVdo {
+    width: 100%; /* Make the video fill the entire width of the viewport */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: cover; /* Cover the entire container */
+      position: fixed; /* Fixed position to cover the entire viewport */
+      top: 0;
+      left: 0;
+      z-index: -1;
+  }
+  video{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .submit {
+    position: absolute;
+    color:rgb(59, 50, 59);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(116, 134, 156, 0.5);
+    border-radius: 8px;
+   
+  }
+  @media (max-width: 768px) {
+    video {
+      width: 100%;
+      height: auto;
+    }
+  }
