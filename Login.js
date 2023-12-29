@@ -35,8 +35,7 @@ const Login = () => {
        <h3 className='text-center p-3'>Login</h3>
         <div > Email: <input  width={250}  type="email" value={email} onChange={handleEmailChange} placeholder="Enter your email" required  /></div> <br></br>
           <div >password: <input  width={250} type="password" value={password} onChange={handlePasswordChange} placeholder="Enter your password" required /></div><br></br>
-      <Link to="/AllBirdDetails" > <button  className='fs-6 bg-info border rounded-pill' type="submit">Login</button></Link><br></br>
-      <p className='p-3'>Do you have not account? <Link to="/SignUp" >SignUp</Link></p>
+      <Link to="/AdminNav" > <button  className='fs-6 bg-info border rounded-pill' type="submit">Login</button></Link><br></br>
       </form>
     </div>
     </div>   
